@@ -12,15 +12,46 @@
   padding: 0
   margin: 0
 
+input
+button
+li
+
+
+
+li
+  list-style-type: none
+
+body
+  background: $bgcolor
+  height: 100%
+  width: 100%
+
 .wrapper_decor
-  background: #777
+  background: #c1d4a9
+  border-radius: 10px
+  box-shadow: 0 0 5px 2px
+  padding: 10px
 
 .wrapper
   @extend .wrapper_decor
   display: grid
+  justify-items: center
+  grid-column-gap: 30px
   max-width: $max-width
+  min-width: $min-width
+  align-content: center
+  margin: 50px auto
 
-li
-  @extend input:checked
+.title
+  font-family: Calibri, sans-serif
+  font-size: $f-size
+  text-align: center
+  padding: 20px
+
+.check_line
+  background: #cccccc
+
+.check_line:checked > li
   text-decoration: line-through
   background: #ccbbaa
+

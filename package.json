@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node-sass styles --watch -o build/styles"
+    "build": "node-sass styles -o build/styles"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^4.7.2",
+    "node-sass": "^4.7.2"
   }
 }

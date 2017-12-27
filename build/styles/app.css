@@ -1,0 +1,46 @@
+* {
+  vertical-align: baseline;
+  font-weight: inherit;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  border: 0 none;
+  outline: 0;
+  padding: 0;
+  margin: 0; }
+
+li {
+  list-style-type: none; }
+
+body {
+  background: linear-gradient(to top, #a7f745, #668cff) no-repeat;
+  height: 100%;
+  width: 100%; }
+
+.wrapper_decor, .wrapper {
+  background: #c1d4a9;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 2px;
+  padding: 10px; }
+
+.wrapper {
+  display: grid;
+  justify-items: center;
+  grid-column-gap: 30px;
+  max-width: 60%;
+  min-width: 500px;
+  align-content: center;
+  margin: 50px auto; }
+
+.title {
+  font-family: Calibri, sans-serif;
+  font-size: 46px;
+  text-align: center;
+  padding: 20px; }
+
+.check_line {
+  background: #cccccc; }
+
+.check_line:checked > li {
+  text-decoration: line-through;
+  background: #ccbbaa; }
